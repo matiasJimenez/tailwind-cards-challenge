@@ -10,13 +10,56 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <!-- Tailwind core CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./dist/styles.css" rel="stylesheet" />
   </head>
 
   <body>
-    <h1 class="text-center">Tailwind Cards Challenge</h1><br>
-    <p class="text-center">Check the README for instructions.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 container mx-auto pt-10 font-poppins">
+      <div class="border border-slate-200 rounded-md shadow-sm hover:shadow-lg mx-3">
+        <img class="rounded-t-md w-full aspect-[5/3]"
+          src="https://i.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s"
+          alt="Lorem Picsum"
+        />
+        <div class="px-5 py-6">
+          <p class="line-clamp-3 font-semibold line-clamp-2 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-6 xl:grid-cols-8 container">
+            <span class="col-start-1 text-sm leading-7 text-slate-400">8 min</span>
+            <div class="btn-readmore"><span class="text-sm text-white">Read more</span></div>
+          </div> 
+        </div>
+      </div>
+      <div class="border border-slate-200 rounded-md shadow-sm hover:shadow-lg mx-3">
+        <img class="rounded-t-md w-full aspect-[5/3]"
+          src="https://i.picsum.photos/id/116/3504/2336.jpg?hmac=C46vgpj3R407e8pCyy8NhIsNaBZCjb4r5d71keNgMJY"
+          alt="Lorem Picsum"
+        />
+        <div class="px-5 py-6">
+          <p class="line-clamp-3 font-semibold line-clamp-2 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-6 xl:grid-cols-8 container">
+            <span class="col-start-1 text-sm leading-7 text-slate-400">8 min</span>
+            <div class="btn-readmore"><span class="text-sm text-white">Read more</span></div>
+          </div> 
+        </div>
+      </div>
+      <div class="border border-slate-200 rounded-md shadow-sm hover:shadow-lg mx-3">
+        <img class="rounded-t-md w-full aspect-[5/3]"
+          src="https://i.picsum.photos/id/69/4912/3264.jpg?hmac=Q08LW3SoOxPfaE-y8-braexxvm5PESXMCdEDqFbEhQ8"
+          alt="Lorem Picsum"
+        />
+        <div class="px-5 py-6">
+          <p class="line-clamp-3 font-semibold line-clamp-2 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-6 xl:grid-cols-8 container">
+            <span class="col-start-1 text-sm leading-7 text-slate-400">8 min</span>
+            <div class="btn-readmore"><span class="text-sm text-white">Read more</span></div>
+          </div>         
+        </div>
+      </div>
+    </div>
   </body>
 </html>
