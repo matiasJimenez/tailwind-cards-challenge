@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-readmore {
+        @apply cursor-pointer rounded-lg col-end-4 md:col-end-7 lg:col-end-6 xl:col-end-8 w-24 bg-red-600 hover:bg-red-700 text-center;
+    }
+}
